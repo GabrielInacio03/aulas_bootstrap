@@ -1,0 +1,18 @@
+
+.somos{
+    background-color: #F7F7F7;
+}
+.servicos{
+    background-color: #F7F7F7;
+}
+.margin{
+    padding: 1.5rem 0;    
+}
+.img-somos{
+    width:400px;
+    height: 400px;
+    margin-bottom: .5rem;
+}
+.row img{
+    width: 70%;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas Bootstrap 5</title>
+    <link rel="stylesheet" href="global.css">
+
+    <!--CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">  
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="navbar-item">
+                    <a href="#quemsomos" class="nav-link">Quem somos</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#parceiros" class="nav-link">Parceiros</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#servicos" class="nav-link">Serviços</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="quemsomos">
+        <div class="container-fluid text-center margin somos">
+            <h3>Quem Somos?</h3>
+            <img class="rounded-circle margin img-somos" src="img/logo.jpg" alt="Quem Somos">
+            <h4>Somos um time comprometido com os resultados</h4>
+        </div>
+    </section>
+    <section id="parceiros">
+        <div class="container-fluid text-center margin">
+            <h3>Parceiros</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img class="margin" src="img/p1.jpg" alt="" width="250px" height="250px">
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="margin" src="img/p2.png" alt="" width="250px" height="250px">
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="margin" src="img/p3.png" alt="" width="250px" height="250px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="servicos">
+        <div class="container-fluid text-center margin servicos">
+            <h3>Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="margin" src="img/p3.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit laboriosam vel,</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="margin" src="img/p3.png" alt="" >
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit laboriosam vel,</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid text-center margin">
+        <p>&copy;Copyright - 2021. Desenvolvido por Gabriel Inácio</p>
+    </footer>
+    <!--JS BOOTSTRAP-->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
